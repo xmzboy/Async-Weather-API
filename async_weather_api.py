@@ -1,6 +1,5 @@
 import grequests
 import requests
-import json
 from tkinter import *
 from tkinter.ttk import Combobox
 import emoji
