@@ -1,5 +1,5 @@
 # Async-Weather-API
- Asyncronic weather API on grequests
+ Asyncronic weather API on grequests.
 
 # Contents
 - [How it works](#how-it-works)
@@ -21,7 +21,17 @@ grequests
 ```
 emoji
 ```
-Also, project use unique WeatherApi token
+All requirements contains in requirements.txt.
+
+Also, project use unique WeatherApi token.
+
+# Quick Start
+To run the project, run the following commands:
+```bash
+cd Async-Weather-API
+pip install -r requirements.txt
+python async_weather_api.py
+```
 
 # Structure
 Project have one folder with weather data in Queenstown, NZ and Ceske Budejovice, CZ.
@@ -36,3 +46,6 @@ And next files:
 
 # Overview
 
+The main page:
+![main](https://github.com/xmzboy/Async-Weather-API/blob/main/readme_images/main.PNG)
+___
