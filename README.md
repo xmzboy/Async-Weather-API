@@ -29,7 +29,11 @@ Also, project use unique WeatherApi token.
 To run the project, run the following commands:
 ```bash
 cd Async-Weather-API
+```
+```
 pip install -r requirements.txt
+```
+```
 python async_weather_api.py
 ```
 
@@ -46,6 +50,17 @@ And next files:
 
 # Overview
 
-The main page:
+The main window:
+
 ![main](https://github.com/xmzboy/Async-Weather-API/blob/main/readme_images/main.PNG)
+___
+
+The settings window and manual:
+
+![main](https://github.com/xmzboy/Async-Weather-API/blob/main/readme_images/settings.PNG)
+___
+
+The messages:
+
+![main](https://github.com/xmzboy/Async-Weather-API/blob/main/readme_images/messages.PNG)
 ___
