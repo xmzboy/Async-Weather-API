@@ -1,5 +1,5 @@
 # Async-Weather-API
- Asyncronic weather API on grequests.
+ Asyncronic weather API on grequests. This application helps to determine the weather by coordinates almost anywhere in the world.
 
 # Contents
 - [How it works](#how-it-works)
