@@ -1,6 +1,8 @@
 # Async-Weather-API
  Asyncronic weather API on grequests. This application helps to determine the weather by coordinates almost anywhere in the world.
 
+### Status of Last Deployment: <img src="https://github.com/xmzboy/Async-Weather-API/workflows/Weather-Python-App/badge.svg?branch=main">
+
 # Contents
 - [How it works](#how-it-works)
 - [Requirements](#requirements)
