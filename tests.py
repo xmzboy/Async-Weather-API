@@ -1,6 +1,7 @@
 import unittest
 import datetime
 import rec_data
+import connections
 
 
 class TestClass(unittest.TestCase):
@@ -9,6 +10,10 @@ class TestClass(unittest.TestCase):
         for k, v in seasons.items():
             if datetime.date.today().month in k:
                 TestClass.assertEqual(self, rec_data.get_season({'coord': {'lat': 15}}), v)
+
+    def test_connection(self):
+        TestClass.assertEqual(self, connections.connection([(59.94, 30.314)], 0), 'https://api.openweathermap.org/data/2.5/weather?lat=59.94&lon=30.314&appid=8537d9ef6386cb97156fd47d832f479c')
+
 
 
 if __name__ == '__main__':
