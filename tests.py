@@ -1,8 +1,5 @@
 import unittest
 import datetime
-import sys
-
-sys.path.insert(1, '../')
 import rec_data
 
 
