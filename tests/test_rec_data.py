@@ -1,6 +1,9 @@
 import unittest
-import rec_data
 import datetime
+import sys
+
+sys.path.insert(1, '../')
+import rec_data
 
 
 class TestClass(unittest.TestCase):
