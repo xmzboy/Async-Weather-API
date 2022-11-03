@@ -6,4 +6,5 @@ WEATHER_STATUS = {'Rain': emoji.emojize('rain :umbrella_with_rain_drops:'),
                   'Clouds': emoji.emojize('clouds :cloud:'),
                   'Snow': emoji.emojize('snow :snowflake:'),
                   'Fog': emoji.emojize('fog :fog:'),
+                  'Mist': emoji.emojize('mist :fog:'),
                   'Drizzle': emoji.emojize('drizzle :umbrella:')}
