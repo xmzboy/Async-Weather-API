@@ -1,7 +1,6 @@
 import csv
 import datetime
-
-SEASONS = {(12, 1, 2): 'Winter', (3, 4, 5): 'Spring', (6, 7, 8): 'Summer', (9, 10, 11): 'Fall'}
+from constants import SEASONS
 
 
 def get_season(dct):
